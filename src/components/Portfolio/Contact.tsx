@@ -20,13 +20,13 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "shameel81443@gmail.com",
+      value: "rahulratheesh570@gmail.com",
       description: "Send me an email anytime"
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "+91 6238830867",
+      value: "+91 9567580412",
       // description: "Available Mon-Fri 9AM-6PM"
     },
     {
