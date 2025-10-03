@@ -93,7 +93,7 @@ const About = () => {
               
               <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
                 <p>
-                  Frontend Engineer with 2 years of experience building responsive, high-performance web apps using React, TypeScript, and modern JavaScript libraries. Skilled in developing scalable, accessible, and pixel-perfect UIs with a strong focus on user experience, performance, and clean architecture.
+                  Frontend Engineer with 1+ years of experience building responsive, high-performance web apps using React, TypeScript, and modern JavaScript libraries. Skilled in developing scalable, accessible, and pixel-perfect UIs with a strong focus on user experience, performance, and clean architecture.
                 </p>
                 
                 <p>
