@@ -141,7 +141,7 @@ const Hero = () => {
             variant="ghost"
             size="lg"
             onClick={() => window.open("mailto:rahulratheesh570@gmail.com", "_blank")}
-            className="rounded-full bg-red-500 w-14 h-14 hover:bg-primary/10 hover:text-primary transition-colors duration-300"
+            className="rounded-full w-14 h-14 hover:bg-primary/10 hover:text-primary transition-colors duration-300"
           >
             <Mail className="h-6 w-6" />
           </Button>
