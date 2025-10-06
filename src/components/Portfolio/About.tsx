@@ -71,8 +71,8 @@ const About = () => {
 
   const stats = [
     { number: 2, label: "Years Experience", suffix: "+" },
-    { number: 10, label: "Projects Completed", suffix: "+" },
-    { number: 15, label: "Technologies Mastered", suffix: "+" },
+    { number: 25, label: "Projects Completed", suffix: "+" },
+    { number: 20, label: "Technologies Mastered", suffix: "+" },
     { number: 100, label: "Client Satisfaction", suffix: "%" }
   ];
 
@@ -93,22 +93,22 @@ const About = () => {
               
               <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
                 <p>
-                  Frontend Engineer with 1+ years of experience building responsive, high-performance web apps using React, TypeScript, and modern JavaScript libraries. Skilled in developing scalable, accessible, and pixel-perfect UIs with a strong focus on user experience, performance, and clean architecture.
+                  Passionate full-stack developer with expertise in building modern web applications using React, Node.js, and cutting-edge technologies. Skilled in developing scalable, responsive, and user-friendly applications with a strong focus on clean code, performance optimization, and best practices.
                 </p>
                 
                 <p>
-                  Adept at integrating APIs, optimizing UI workflows, and collaborating in agile teams to deliver polished, production-ready features. Known for attention to detail, code quality, and driving continuous UI/UX improvements.
+                  Experienced in both frontend and backend development, with a deep understanding of modern JavaScript frameworks, RESTful APIs, and database design. Committed to continuous learning and staying up-to-date with the latest industry trends and technologies.
                 </p>
                 
                 <p>
-                  Currently working as a Junior Software Engineer at Nivid Solutions, where I create reusable React components, manage state with Redux and Zustand, and build full-stack features with Express.js and Prisma.
+                  I enjoy solving complex problems, collaborating with teams, and delivering high-quality software solutions that make a real impact. Always eager to take on new challenges and contribute to meaningful projects.
                 </p>
               </div>
             </div>
 
             {/* Skills Tags */}
             <div className="flex flex-wrap gap-3">
-              {["React", "Next.js", "TypeScript", "Redux", "Zustand", "React Query", "Tailwind CSS", "shadcn/ui", "Express.js", "Prisma"].map((skill) => (
+              {["JavaScript", "TypeScript", "React", "Node.js", "Python", "MongoDB", "PostgreSQL", "Git", "Docker", "AWS"].map((skill) => (
                 <span 
                   key={skill}
                   className="px-4 py-2 bg-card border border-border rounded-full text-sm font-medium text-foreground hover:border-primary/50 transition-colors duration-300"

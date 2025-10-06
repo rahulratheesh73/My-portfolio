@@ -78,17 +78,16 @@ const Hero = () => {
           className="font-display text-6xl md:text-8xl font-bold mb-6"
         >
           <span className="bg-gradient-primary bg-clip-text text-transparent">
-            Frontend
+            Full Stack
           </span>{" "}
-          <span className="text-foreground"> Engineer</span>
+          <span className="text-foreground">Developer</span>
         </h1>
 
         <p
           ref={subtitleRef}
           className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed"
         >
-          Frontend Engineer with <span className="text-primary font-semibold">1+ years</span> of experience
-          building responsive, high-performance web apps using React, TypeScript, and modern JavaScript libraries.
+          Passionate developer with expertise in building modern web applications using React, Node.js, and cutting-edge technologies.
         </p>
 
         <div ref={ctaRef} className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -107,7 +106,7 @@ const Hero = () => {
             onClick={() => {
               const link = document.createElement('a');
               link.href = '/resume.pdf'; // Make sure your PDF is named resume.pdf in public folder
-              link.download = 'Rahul_Ratheesh_Resume.pdf'; // This will be the downloaded filename
+              link.download = 'Developer_Resume.pdf'; // This will be the downloaded filename
               document.body.appendChild(link);  
               link.click();
               document.body.removeChild(link);
@@ -120,7 +119,7 @@ const Hero = () => {
 
         <div ref={socialRef} className="flex justify-center gap-6">
           <Button
-            onClick={() => window.open("https://github.com/rahulratheesh73", "_blank")}
+            onClick={() => window.open("https://github.com/yourusername", "_blank")}
             variant="ghost"
             size="lg"
             className="rounded-full w-14 h-14 hover:bg-primary/10 hover:text-primary transition-colors duration-300"
@@ -129,7 +128,7 @@ const Hero = () => {
           </Button>
 
           <Button
-            onClick={() => window.open("https://www.linkedin.com/in/rahul-ratheesh-b59393374", "_blank")}
+            onClick={() => window.open("https://www.linkedin.com/in/yourusername", "_blank")}
             variant="ghost"
             size="lg"
             className="rounded-full w-14 h-14 hover:bg-primary/10 hover:text-primary transition-colors duration-300"
@@ -140,7 +139,7 @@ const Hero = () => {
           <Button
             variant="ghost"
             size="lg"
-            onClick={() => window.open("mailto:rahulratheesh570@gmail.com", "_blank")}
+            onClick={() => window.open("mailto:your.email@example.com", "_blank")}
             className="rounded-full w-14 h-14 hover:bg-primary/10 hover:text-primary transition-colors duration-300"
           >
             <Mail className="h-6 w-6" />
