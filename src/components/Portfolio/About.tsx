@@ -70,7 +70,7 @@ const About = () => {
   }, []);
 
   const stats = [
-    { number: 2, label: "Years Experience", suffix: "+" },
+    { number: 1, label: "Years Experience", suffix: "+" },
     { number: 25, label: "Projects Completed", suffix: "+" },
     { number: 20, label: "Technologies Mastered", suffix: "+" },
     { number: 100, label: "Client Satisfaction", suffix: "%" }
